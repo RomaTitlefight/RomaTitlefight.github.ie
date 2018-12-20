@@ -1,0 +1,397 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+li {
+	display: inline;
+}
+
+/*СТИЛИ ШАПКИ*/
+
+header {
+	width: 100%;
+	height: 687px;
+	background-color: silver;
+	background-image: url(img/headerBG.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+`
+.headerUp {
+	padding-left: 8.7%;
+	padding-top: 1.4%;
+}
+
+.logo {
+	float: left;
+	padding-left: 8.7%;
+	padding-top: 1.4%;
+}
+
+.navigation {
+	float: right;
+	padding-right: 8.8%;
+	padding-top: 3%;
+}
+
+.navigation li {
+
+	color: #1b1b1b;
+	font-family: Tahoma;
+	font-size: 1.2em;
+	padding: 10px 30px;
+}
+
+.navigation li:hover {
+	color: white;
+	background-color: #d03958;
+	border-radius: 6px;
+
+}
+
+.headerMid {
+	padding-left:10%;
+	padding-top: 249px;
+}
+
+.headerMid h1 {
+	line-height: 0.9em;
+	word-spacing: 10px;
+	font-family: Tahoma;
+	font-size: 5em;
+	color: #1b1b1b;
+}
+
+.headerMid span {
+	color: #d03958;
+}
+
+.headerMid p {
+	padding-top: 40px;
+	font-family: tahoma;
+	font-size: 1.1em;
+}
+
+.form {
+	position: absolute;
+	width: 401px;
+	height: 524px;
+	background-color: #d03958;
+	right: 155px;
+	top: 252px;
+	border-radius: 6px;
+}
+
+.form h3 {
+	padding-left: 100px;
+	padding-top: 37px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 1.1em;
+}
+
+.form form {
+	padding-left: 26px;
+	padding-top: 42px;
+}
+.form input {
+	outline: none;
+	border: 0;
+	border-radius: 6px;
+	margin-top: 19px;
+	padding-left: 20px;
+	width: 328px;
+	height: 50px;
+	font-size: 1em;
+}
+
+.form input::placeholder {
+	color: #b5b5b5;
+}
+
+#checkbox1 { 
+	border-radius: 6px;
+	width: 20px;
+	height: 20px;
+}
+
+.form label {
+	position: absolute;
+	top: 398px;
+	color: white;
+	padding-left: 50px;
+}
+
+.form button {
+	border: 0;
+	background-color: black;
+	margin-top: 20px;
+	border-radius: 6px;
+	width: 348px;
+	height: 50px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+
+
+/*СТИЛИ СЕКЦИИ*/
+
+.ourServices {
+	height: 485px;
+	background-color: white;
+	padding-left:10%;
+	padding-top: 38px;
+}
+
+.ourServices h2 {
+	font-family: Tahoma;
+	color: #1b1b1b;
+	font-size: 3em;
+}
+
+.ourServices span {
+	color: #d03958;
+}
+
+.serviceList {
+	padding-top: 120px;
+}
+
+.serviceItem {
+	float: left;
+}
+
+.serviceItem:not(:first-child) {
+	margin-left: 155px;
+}
+
+
+.serviceItem p {
+	padding-top: 50px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+
+/*!!!*/
+
+.ourStory {
+	height: 119px;
+	background-color: #d03958;
+}
+
+.ourStory p {
+	float: left;
+	font-family: Tahoma;
+	color: white;
+	padding-left:10%;
+	padding-top: 40px;
+}
+
+.ourStory button {
+	border: 0;
+	background-color: #e3d5b8;
+	border-radius: 6px;
+	color: #1b1b1b;
+	font-family: Tahoma;
+	font-size: 1.5em;
+	padding: 10px 60px;
+	margin-left:20%;
+	margin-top: 35px;
+}
+
+/*!!!*/
+
+.pricing {
+	height: 540px;
+	background-color: #e3d5b8;
+}
+
+.pricing h3 {
+	text-align: center;
+	padding-top: 60px;
+	font-family: Tahoma;
+	font-size: 2.5em;
+	letter-spacing: 4px;
+	color: #1f1f1f;
+}
+
+.pricingList {
+	margin-left: 10%;
+}
+
+.priceItem img {
+	position: absolute;
+	top: 1512px;
+	left: 515px;
+
+}
+
+.priceItem {
+	float: left;
+	margin-top: 75px;
+	width: 315px;
+	height: 357px;
+	background-color: white;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.priceItem:not(:first-child) {
+	margin-left: 65px;
+}
+
+
+
+.priceItem span {
+	position: absolute;
+	transform: rotate(-45deg);
+	top: 1535px;
+	left: 520px;
+}
+
+.priceItem h4 {
+	font-family: Tahoma;
+	color: #1b1b1b;
+	font-size: 1em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.priceItem strong {
+	font-family: Tahoma;
+	color: #d03958;
+	font-size: 3em;
+}
+
+.priceItem p {
+	font-family: Tahoma;
+	color: #1b1b1b;
+	font-size: 1em;
+	padding-top: 30px;
+}
+
+.priceItem button {
+	border: 0;
+	background-color: #e3d5b8;
+	border-radius: 6px;
+	color: #1b1b1b;
+	font-family: Tahoma;
+	font-size: 1.5em;
+	padding: 10px 60px;
+	margin-top: 20px;
+}
+
+.priceItem #redButton {
+	background-color: #d03958;
+	color: white;
+}
+
+
+
+
+.gallery {
+	height: 570px;
+	background-color: white;
+	margin-left: 10%;
+}
+
+.gallery h3 {
+	font-family: Tahoma;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 100px;
+	color: #1b1b1b;
+}
+
+.testimonial {
+	float: left;
+}
+
+.testimonial h3 {
+	padding-left: 40px;
+}
+
+.testimonial blockquote {
+	padding-top: 60px;
+	font-family: Tahoma;
+	font-size: 0.9em;
+}
+
+.testimonial strong {
+	font-family: Tahoma;
+	font-size: 1em;
+	color: #d03958;
+}
+
+.testimonial img{
+	top: 2078px;
+	padding-left: 70px;
+	position: absolute;
+}
+
+.testimonial #guy2 {
+	top: 2188px;
+	left: 368px;
+}
+
+.galleryBlock {
+	margin-left: 600px;
+	text-align: left;
+}
+
+
+
+.galleryBlock h3 {
+	padding-bottom: 30px;
+	padding-right: 200px;
+	color: #d03958;
+}
+
+.galleryBlock img {
+	padding: 10px;
+}
+
+.galleryBlock a {
+	font-family: Tahoma;
+	color: #d03958;
+	font-size: 1.2em;
+	padding-left: 105px;
+}
+
+
+
+
+footer {
+	height: 125px;
+	background-color: #161616;
+}
+
+footer p {
+	float: left;
+	font-family: Tahoma;
+	color: white;
+	padding: 50px;
+	font-size: 1.1em;
+}
+
+footer span {
+	color: #d03958;
+}
+
+footer a {
+	position: absolute;
+	padding-left: 500px;
+	padding-top: 25px;
+}
